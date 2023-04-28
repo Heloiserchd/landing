@@ -1,0 +1,114 @@
+/* Write some CSS below */
+h1	{
+	color: #A14A2A;
+	font-size: 40px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	text-align: center;
+	padding: 15px;
+}
+
+h2 {
+	color: #A14A2A;
+	font-size: 20px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+h3 {
+	color: black;
+	font-size: 12px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	text-align: center;
+}
+ a{
+ 	text-decoration: none;
+ 	text-align: center;
+ 	color: black;
+	font-size: 15px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+
+ }
+img {
+	width: 100px;
+ }
+ header	{
+ 	background-color: #F2E3CC;
+ 	height: 100px;
+ }
+ p{
+ 	color: black;
+	font-size: 15px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	margin: 0;
+ }
+ 
+
+div{
+ 	border: 2px grey;
+ 	padding: 50px;
+ 	margin: 0;
+ }
+
+
+.banner {
+	text-align: center;
+	padding: 150px;
+	margin: 0;
+	background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.5)), url(images/background.png);
+}
+
+.button-red {
+	display: inline-block;
+  padding: 12px 24px;
+  background-color: #A14A2A;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-red:hover {
+  background-color: #F2E3CC;
+  color:#A14A2A ;
+}
+
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;}
+
+  .card-white h3 {
+  margin-bottom: 0;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.container {
+	width: 900px;
+	margin: 30px auto;
+}
+
+.footer {
+	background-color:#F2E3CC;
+	color:#A14A2A ;
+	padding: 50px;
+}
